@@ -2,7 +2,7 @@
 
 By [Kasey Uhlenhuth](https://github.com/kuhlenh)
 
-We use generics all the time in C#, whether implicitly of explicitly. When you use LINQ in C#, did you ever notice that you are working with IEnumerable<T>? Or if you every saw an online sample of a “generic repository” for talking to databases using Entity Framework, did you see that most methods return IQueryable<T>? You may have wondered what the **T** is in these examples and why is it in there?
+We use generics all the time in C#, whether implicitly of explicitly. When you used LINQ in C#, did you ever notice that you are working with IEnumerable<T>? Or if you ever saw an online sample of a “generic repository” for talking to databases using Entity Framework, did you see that most methods return IQueryable<T>? You may have wondered what the **T** is in these examples and why is it in there?
 
 First introduced to the .NET Framework 2.0, generics involved changes to both the C# language and the Common Language Runtime (CLR). **Generics** are essentially a “code template” that allows developers to define [type-safe](https://msdn.microsoft.com/en-us/library/hbzz1a9a%28v=vs.110%29.aspx) data structures without committing to an actual data type. For example, `List<T>` is a [Generic Collection](https://msdn.microsoft.com/en-us/library/System.Collections.Generic%28v=vs.110%29.aspx) that can be declared and used with any type: `List<int>`, `List<string>`, `List<Person>`, etc.
 
